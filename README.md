@@ -38,8 +38,10 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough (GIF)
 
-If you recorded multiple GIFs for all the implemented features, you can add them here:
+If you recorded multiple GIFs for all the implemented features, you can add them here:<br/> 
+Showcase of game with loss: <br/> 
 ![x](codepath_prework_game_lose.gif)
+Showcase of game with win: <br/> 
 ![x](codepath_prework_game_win.gif)
 ![](gif3-link-here)
 ![](gif4-link-here)
