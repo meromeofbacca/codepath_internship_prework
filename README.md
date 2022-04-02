@@ -46,10 +46,13 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
-[YOUR ANSWER HERE]
+https://developer.mozilla.org/en-US/docs/Web/API/AudioContext
+https://developer.mozilla.org/en-US/docs/Web/API/GainNode
+https://developer.mozilla.org/en-US/docs/Web/API/OscillatorNode
+https://developer.mozilla.org/en-US/docs/Web/API/AudioParam/setTargetAtTime
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-[YOUR ANSWER HERE]
+
     A challenge that I came across in creating the Light and Memory game is understanding what certain functions did, specifically the ones that controlled playing the tones, playTone(), startTone(), and stopTone(). From reading the prework’s description, I understood that playTone() played the corresponding tone for a given button for a given period of time, and that startTone() and stopTone() were self explanatory, however I wanted to know how these functions used the AudioContext library to generate sounds for the buttons. I knew that the best way to learn about a library was to read its documentation, and so I headed over to Mozilla’s web API site to learn more. I focused on what the AudioContext itself was, and that turned out to be an audio processing graph made from different connected audio nodes , including a gain node and an oscillator node that I noticed was initialized and then used in the tone playing functions. I then looked at how each function used parts of the AudioContext library to perform its function. At the core of each function was this snippet of code: 
 o.frequency.value = freqMap[btn];
 g.gain.setTargetAtTime(volume,context.currentTime + 0.05,0.025;
