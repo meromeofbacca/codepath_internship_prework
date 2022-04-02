@@ -71,7 +71,7 @@ This game reminds me a lot of the Human Benchmark website that has games that me
 
 ## Interview Recording URL Link
 
-[](https://www.loom.com/share/2b9edef2108a4fb3bfe153e686f324f7)
+[https://www.loom.com/share/2b9edef2108a4fb3bfe153e686f324f7](Your link here)
 
 
 ## License
